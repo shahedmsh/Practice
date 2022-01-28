@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-01-27T20:00:51 EST" name="Default suite" finished-at="2022-01-27T20:01:11 EST" duration-ms="19618">
+    <groups>
+      <group name="senity">
+        <method signature="TestScenarioSerarch1.aearch()[pri:0, instance:Test_Scenarios.TestScenarioSerarch1@6f96c77]" name="aearch" class="Test_Scenarios.TestScenarioSerarch1"/>
+      </group> <!-- senity -->
+      <group name="regression">
+        <method signature="TestScenarioSerarch1.check()[pri:0, instance:Test_Scenarios.TestScenarioSerarch1@6f96c77]" name="check" class="Test_Scenarios.TestScenarioSerarch1"/>
+      </group> <!-- regression -->
+    </groups>
+    <test started-at="2022-01-27T20:00:51 EST" name="Default test" finished-at="2022-01-27T20:01:11 EST" duration-ms="19618">
+      <class name="Test_Scenarios.TestScenarioSerarch1">
+        <test-method is-config="true" signature="SetupDriver()[pri:0, instance:Test_Scenarios.TestScenarioSerarch1@6f96c77]" started-at="2022-01-27T20:00:51 EST" name="SetupDriver" finished-at="2022-01-27T20:00:53 EST" duration-ms="2139" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetupDriver -->
+        <test-method is-config="true" signature="LaunchBrowser()[pri:0, instance:Test_Scenarios.TestScenarioSerarch1@6f96c77]" started-at="2022-01-27T20:00:53 EST" name="LaunchBrowser" finished-at="2022-01-27T20:01:04 EST" duration-ms="10657" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method signature="aearch()[pri:0, instance:Test_Scenarios.TestScenarioSerarch1@6f96c77]" started-at="2022-01-27T20:01:04 EST" name="aearch" finished-at="2022-01-27T20:01:10 EST" duration-ms="5915" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aearch -->
+        <test-method signature="check()[pri:0, instance:Test_Scenarios.TestScenarioSerarch1@6f96c77]" started-at="2022-01-27T20:01:10 EST" name="check" finished-at="2022-01-27T20:01:10 EST" duration-ms="563" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Test_Scenarios.TestScenarioSerarch1@6f96c77]" started-at="2022-01-27T20:01:10 EST" name="teardown" finished-at="2022-01-27T20:01:11 EST" duration-ms="321" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Test_Scenarios.TestScenarioSerarch1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
