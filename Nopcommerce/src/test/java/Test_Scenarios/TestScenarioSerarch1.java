@@ -58,6 +58,7 @@ public class TestScenarioSerarch1 {
 		test.log(LogStatus.PASS, tit);
 		
 		Thread.sleep(5000);
+		System.out.println("Adding code to github");
 	}
 	@Test(groups = "senity")
 	public void aearch() throws InterruptedException, IOException {
